@@ -15,6 +15,14 @@
 		1D6944A81EC0BA7900745806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6944A61EC0BA7900745806 /* LaunchScreen.storyboard */; };
 		1D6944B31EC0BA7A00745806 /* MyWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6944B21EC0BA7A00745806 /* MyWalletTests.m */; };
 		1D6944BE1EC0BA7A00745806 /* MyWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6944BD1EC0BA7A00745806 /* MyWalletUITests.m */; };
+		1D6944D61EC0BC2C00745806 /* MWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6944D51EC0BC2C00745806 /* MWBaseViewController.m */; };
+		1D6944DA1EC0BC5300745806 /* MWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6944D81EC0BC5300745806 /* MWMainViewController.m */; };
+		1D6944DB1EC0BC5300745806 /* MWMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6944D91EC0BC5300745806 /* MWMainViewController.xib */; };
+		1D6944DF1EC0BC6800745806 /* MWLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6944DD1EC0BC6800745806 /* MWLeftViewController.m */; };
+		1D6944E01EC0BC6800745806 /* MWLeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D6944DE1EC0BC6800745806 /* MWLeftViewController.xib */; };
+		24DCDA3694DB5FA4A567B0FB /* libPods-MyWalletTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8FE02422B5B804AA209342 /* libPods-MyWalletTests.a */; };
+		2C479180390A480194E8D50D /* libPods-MyWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC112672F4CD03B81D56A6F /* libPods-MyWallet.a */; };
+		DF90815440B992934E1FC125 /* libPods-MyWalletUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2357A07CF476E4F733F2B44 /* libPods-MyWalletUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,23 @@
 		1D6944B91EC0BA7A00745806 /* MyWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6944BD1EC0BA7A00745806 /* MyWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletUITests.m; sourceTree = "<group>"; };
 		1D6944BF1EC0BA7A00745806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6944D41EC0BC2C00745806 /* MWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWBaseViewController.h; sourceTree = "<group>"; };
+		1D6944D51EC0BC2C00745806 /* MWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWBaseViewController.m; sourceTree = "<group>"; };
+		1D6944D71EC0BC5300745806 /* MWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWMainViewController.h; sourceTree = "<group>"; };
+		1D6944D81EC0BC5300745806 /* MWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMainViewController.m; sourceTree = "<group>"; };
+		1D6944D91EC0BC5300745806 /* MWMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWMainViewController.xib; sourceTree = "<group>"; };
+		1D6944DC1EC0BC6800745806 /* MWLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLeftViewController.h; sourceTree = "<group>"; };
+		1D6944DD1EC0BC6800745806 /* MWLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLeftViewController.m; sourceTree = "<group>"; };
+		1D6944DE1EC0BC6800745806 /* MWLeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWLeftViewController.xib; sourceTree = "<group>"; };
+		63B74E62D2EF5669AFFB3676 /* Pods-MyWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWallet/Pods-MyWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC112672F4CD03B81D56A6F /* libPods-MyWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82953BA37995052836550C39 /* Pods-MyWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWalletTests/Pods-MyWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		9B5E625CC3BD52C711E28EB3 /* Pods-MyWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWalletTests/Pods-MyWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B91E93FAC6A1CA1378DD6BB /* Pods-MyWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWallet/Pods-MyWallet.release.xcconfig"; sourceTree = "<group>"; };
+		9C8FE02422B5B804AA209342 /* libPods-MyWalletTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyWalletTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C426A1AF4761B13264679C /* Pods-MyWalletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWalletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWalletUITests/Pods-MyWalletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBF547CDC37349446E52559 /* Pods-MyWalletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWalletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWalletUITests/Pods-MyWalletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2357A07CF476E4F733F2B44 /* libPods-MyWalletUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyWalletUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C479180390A480194E8D50D /* libPods-MyWallet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DCDA3694DB5FA4A567B0FB /* libPods-MyWalletTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF90815440B992934E1FC125 /* libPods-MyWalletUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,8 @@
 				1D6944B11EC0BA7A00745806 /* MyWalletTests */,
 				1D6944BC1EC0BA7A00745806 /* MyWalletUITests */,
 				1D6944961EC0BA7900745806 /* Products */,
+				CBF06E28473BF1A96B4CFAD5 /* Pods */,
+				C4BFEEB0BC78BEDE08636D52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,9 @@
 		1D6944971EC0BA7900745806 /* MyWallet */ = {
 			isa = PBXGroup;
 			children = (
+				1D6944D31EC0BC1100745806 /* Base */,
+				1D6944CF1EC0BBF700745806 /* Main */,
+				1D6944CB1EC0BBF200745806 /* Left */,
 				1D69449B1EC0BA7900745806 /* AppDelegate.h */,
 				1D69449C1EC0BA7900745806 /* AppDelegate.m */,
 				1D69449E1EC0BA7900745806 /* ViewController.h */,
@@ -140,6 +173,106 @@
 			path = MyWalletUITests;
 			sourceTree = "<group>";
 		};
+		1D6944CB1EC0BBF200745806 /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				1D6944CC1EC0BBF200745806 /* Controller */,
+				1D6944CD1EC0BBF200745806 /* Model */,
+				1D6944CE1EC0BBF200745806 /* View */,
+			);
+			path = Left;
+			sourceTree = "<group>";
+		};
+		1D6944CC1EC0BBF200745806 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D6944DC1EC0BC6800745806 /* MWLeftViewController.h */,
+				1D6944DD1EC0BC6800745806 /* MWLeftViewController.m */,
+				1D6944DE1EC0BC6800745806 /* MWLeftViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D6944CD1EC0BBF200745806 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D6944CE1EC0BBF200745806 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D6944CF1EC0BBF700745806 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D6944D01EC0BBF700745806 /* Controller */,
+				1D6944D11EC0BBF700745806 /* Model */,
+				1D6944D21EC0BBF700745806 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1D6944D01EC0BBF700745806 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D6944D71EC0BC5300745806 /* MWMainViewController.h */,
+				1D6944D81EC0BC5300745806 /* MWMainViewController.m */,
+				1D6944D91EC0BC5300745806 /* MWMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D6944D11EC0BBF700745806 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D6944D21EC0BBF700745806 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D6944D31EC0BC1100745806 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1D6944D41EC0BC2C00745806 /* MWBaseViewController.h */,
+				1D6944D51EC0BC2C00745806 /* MWBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C4BFEEB0BC78BEDE08636D52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC112672F4CD03B81D56A6F /* libPods-MyWallet.a */,
+				9C8FE02422B5B804AA209342 /* libPods-MyWalletTests.a */,
+				F2357A07CF476E4F733F2B44 /* libPods-MyWalletUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF06E28473BF1A96B4CFAD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63B74E62D2EF5669AFFB3676 /* Pods-MyWallet.debug.xcconfig */,
+				9B91E93FAC6A1CA1378DD6BB /* Pods-MyWallet.release.xcconfig */,
+				9B5E625CC3BD52C711E28EB3 /* Pods-MyWalletTests.debug.xcconfig */,
+				82953BA37995052836550C39 /* Pods-MyWalletTests.release.xcconfig */,
+				D5C426A1AF4761B13264679C /* Pods-MyWalletUITests.debug.xcconfig */,
+				DEBF547CDC37349446E52559 /* Pods-MyWalletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6944C21EC0BA7A00745806 /* Build configuration list for PBXNativeTarget "MyWallet" */;
 			buildPhases = (
+				49452C3F12F00DB0C856EBE1 /* [CP] Check Pods Manifest.lock */,
 				1D6944911EC0BA7900745806 /* Sources */,
 				1D6944921EC0BA7900745806 /* Frameworks */,
 				1D6944931EC0BA7900745806 /* Resources */,
+				E7DB91C218A55EFB9A60CB0C /* [CP] Embed Pods Frameworks */,
+				4E34AFE7B7D4AEE22D40F0C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +300,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6944C51EC0BA7A00745806 /* Build configuration list for PBXNativeTarget "MyWalletTests" */;
 			buildPhases = (
+				7136CC713873BC6EC9B11DB3 /* [CP] Check Pods Manifest.lock */,
 				1D6944AA1EC0BA7A00745806 /* Sources */,
 				1D6944AB1EC0BA7A00745806 /* Frameworks */,
 				1D6944AC1EC0BA7A00745806 /* Resources */,
+				62B4C10C30D38C5BC04ED44E /* [CP] Embed Pods Frameworks */,
+				18560527B60D7179E19B2D09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6944C81EC0BA7A00745806 /* Build configuration list for PBXNativeTarget "MyWalletUITests" */;
 			buildPhases = (
+				E47A6BF49D86B4912D77341F /* [CP] Check Pods Manifest.lock */,
 				1D6944B51EC0BA7A00745806 /* Sources */,
 				1D6944B61EC0BA7A00745806 /* Frameworks */,
 				1D6944B71EC0BA7A00745806 /* Resources */,
+				53E57DF079D85E17442A587D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +388,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6944A81EC0BA7900745806 /* LaunchScreen.storyboard in Resources */,
+				1D6944DB1EC0BC5300745806 /* MWMainViewController.xib in Resources */,
 				1D6944A51EC0BA7900745806 /* Assets.xcassets in Resources */,
 				1D6944A31EC0BA7900745806 /* Main.storyboard in Resources */,
+				1D6944E01EC0BC6800745806 /* MWLeftViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +411,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18560527B60D7179E19B2D09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWalletTests/Pods-MyWalletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49452C3F12F00DB0C856EBE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E34AFE7B7D4AEE22D40F0C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWallet/Pods-MyWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53E57DF079D85E17442A587D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWalletUITests/Pods-MyWalletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B4C10C30D38C5BC04ED44E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWalletTests/Pods-MyWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7136CC713873BC6EC9B11DB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E47A6BF49D86B4912D77341F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DB91C218A55EFB9A60CB0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWallet/Pods-MyWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D6944911EC0BA7900745806 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +542,9 @@
 				1D6944A01EC0BA7900745806 /* ViewController.m in Sources */,
 				1D69449D1EC0BA7900745806 /* AppDelegate.m in Sources */,
 				1D69449A1EC0BA7900745806 /* main.m in Sources */,
+				1D6944DF1EC0BC6800745806 /* MWLeftViewController.m in Sources */,
+				1D6944DA1EC0BC5300745806 /* MWMainViewController.m in Sources */,
+				1D6944D61EC0BC2C00745806 /* MWBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +693,7 @@
 		};
 		1D6944C31EC0BA7A00745806 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B74E62D2EF5669AFFB3676 /* Pods-MyWallet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWallet/Info.plist;
@@ -435,6 +705,7 @@
 		};
 		1D6944C41EC0BA7A00745806 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B91E93FAC6A1CA1378DD6BB /* Pods-MyWallet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWallet/Info.plist;
@@ -446,6 +717,7 @@
 		};
 		1D6944C61EC0BA7A00745806 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5E625CC3BD52C711E28EB3 /* Pods-MyWalletTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MyWalletTests/Info.plist;
@@ -458,6 +730,7 @@
 		};
 		1D6944C71EC0BA7A00745806 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82953BA37995052836550C39 /* Pods-MyWalletTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = MyWalletTests/Info.plist;
@@ -470,6 +743,7 @@
 		};
 		1D6944C91EC0BA7A00745806 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C426A1AF4761B13264679C /* Pods-MyWalletUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MyWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +755,7 @@
 		};
 		1D6944CA1EC0BA7A00745806 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEBF547CDC37349446E52559 /* Pods-MyWalletUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = MyWalletUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +784,7 @@
 				1D6944C41EC0BA7A00745806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6944C51EC0BA7A00745806 /* Build configuration list for PBXNativeTarget "MyWalletTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +793,7 @@
 				1D6944C71EC0BA7A00745806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6944C81EC0BA7A00745806 /* Build configuration list for PBXNativeTarget "MyWalletUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +802,7 @@
 				1D6944CA1EC0BA7A00745806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

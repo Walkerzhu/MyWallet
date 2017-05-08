@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "MWLeftViewController.h"
+#import "MWMainViewController.h"
+#import "MMDrawerController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,32 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    MWLeftViewController *leftVC = [[MWLeftViewController alloc] init];
+    MWMainViewController *mainVC = [[MWMainViewController alloc] init];
+    UINavigationController *leftNav = [[UINavigationController alloc] initWithRootViewController:leftVC];
+    UINavigationController *mainNav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    MMDrawerController *drawerCV = [[MMDrawerController alloc] initWithCenterViewController:mainNav leftDrawerViewController:leftNav];
+    [drawerCV setMaximumLeftDrawerWidth:300];
+    [drawerCV setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [drawerCV
+     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
+         UIViewController * sideDrawerViewController;
+         if(drawerSide == MMDrawerSideLeft){
+             sideDrawerViewController = drawerController.leftDrawerViewController;
+         }
+         else if(drawerSide == MMDrawerSideRight){
+             sideDrawerViewController = drawerController.rightDrawerViewController;
+         }
+         [sideDrawerViewController.view setAlpha:percentVisible];
+     }];
+    UIColor * tintColor = [UIColor colorWithRed:29.0/255.0
+                                          green:173.0/255.0
+                                           blue:234.0/255.0
+                                          alpha:1.0];
+    [self.window setTintColor:tintColor];
+    self.window.rootViewController = drawerCV;
+    self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
 
